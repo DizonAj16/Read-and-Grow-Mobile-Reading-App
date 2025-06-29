@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'Day4Pages/day_4_mpc.dart';
 import 'Day4Pages/day_4_story_reading.dart';
+import 'Day4Pages/day_5_essay_page.dart';
 
 class Activity13Page extends StatefulWidget {
   const Activity13Page({super.key});
@@ -17,6 +18,7 @@ class _Activity13PageState extends State<Activity13Page> {
   final List<Widget> _pages = const [
     DayFourStoryPage(),
     DayFourMultipleChoicePage(),
+    DayFiveEssayPage(),
   ];
 
   Future<void> _goToPage(int newPage) async {
